@@ -1,4 +1,4 @@
-FROM circleci/openjdk:11.0.1-jdk-node
+FROM circleci/openjdk:11.0.2-jdk-node
 MAINTAINER Kok How, Teh <funcoolgeek@gmail.com>
 RUN sudo apt update -y
 RUN sudo apt install -y apt-transport-https
